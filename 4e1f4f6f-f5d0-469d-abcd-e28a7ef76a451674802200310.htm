@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1 style="text-align:center;">Hi ma'am</h1>
+    <h1 style="text-align:center;">Pwede ko manguyab nimo ma'am?</h1>
+    <div id="By" style="position:absolute; left:100px; top:370px; width:300px; height:400px;">
+        <input type="button" value="Oo" onClick="f1()">
+    </div>
+
+    <div id="Bn" style="position:absolute; left:290px; top:        370px; width:210px; height:300px;">
+        <input type="button" value="Dili" onMouseOver="f()">
+    </div>
+  <!-- Project -->
+  <script src="main.js">
+    flag = 1
+        function f1() {
+            alert("Karun kay ge sugot nman ko nimo ma'am kita na")
+            alert("Yeii I love you ma'am")
+        }
+        function f1() {
+            if (flag == 1) {
+                Bn.style.top = 400
+                Bn.style.left = 300
+                flag = 2
+            } else if (flag == 2) {
+                Bn.style.top = 400
+                Bn.style.left = 100
+                flag = 3
+            } else if (flag == 3) {
+                Bn.style.top = 250
+                Bn.style.left = 180
+                flag = 4
+            } else if (flag == 4) {
+                Bn.style.top = 250
+                Bn.style.left = 120
+                flag = 5
+            } else if (flag == 5) {
+                Bn.style.top = 500
+                Bn.style.left = 170
+                flag = 6
+            } else if (flag == 6) {
+                Bn.style.top = 600
+                Bn.style.left = 130
+                flag = 1
+            }
+        }
+  </script>
+</body>
+</html>
